@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-.logo{
-    width: 200px;
-}
-
 .blue{
     color: lightskyblue; 
 }
@@ -23,31 +19,23 @@
     background-size: contain;
     height: 100px;
     padding: 50px; 
+    background-color: lightblue;
 }
 
-h1{
-    margin-top: 20px; 
+.logo{
+    width: 200px;
 }
 
 ul{
     margin-left: 2em;
-    margin-top: 20px;
 }
 
-.pictures{
-    margin-top: 20px;
-}
-
-.paragraph{
-    margin-top: 20px;
-}
-
-table{
+.pictures, .paragraph, h1, table, h4, ul {
     margin-top: 20px;
 }
 
 h4{
-    margin-top: 20px;
+    color: gray;
 }
 
 .footer-photo{
@@ -56,6 +44,7 @@ h4{
     background-size: contain;
     color: white;
     margin-top: 20px;
+    padding: 10px;
 }
 
 .one{
@@ -66,4 +55,32 @@ h4{
 .two{
     background-repeat: no-repeat;
     background-image: url(../assets/img/graph.jpg);
+}
+
+thead{
+    background-color: rgb(72, 157, 210);
+    color: white;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    width: calc(100% / 3);
+}
+
+.row-spare{
+    background-color: lightblue;
+}
+
+main, footer{
+    width: 95%;
+    margin: auto;
+}
+
+span, .day{
+    color: gray;
 }
