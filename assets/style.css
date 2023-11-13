@@ -49,3 +49,21 @@ table{
 h4{
     margin-top: 20px;
 }
+
+.footer-photo{
+    width: 312px;
+    height: 209px;
+    background-size: contain;
+    color: white;
+    margin-top: 20px;
+}
+
+.one{
+    background-image: url(../assets/img/monitor.jpg);
+    background-repeat: no-repeat;
+}
+
+.two{
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/graph.jpg);
+}
