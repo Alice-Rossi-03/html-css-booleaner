@@ -6,5 +6,46 @@
 }
 
 .logo{
-    width: 300px;
+    width: 200px;
+}
+
+.blue{
+    color: lightskyblue; 
+}
+
+.day{
+    font-size: 10px;
+}
+
+.logo-container{
+    background-image: url(../assets/img/pattern.png);
+    background-repeat: repeat-x; 
+    background-size: contain;
+    height: 100px;
+    padding: 50px; 
+}
+
+h1{
+    margin-top: 20px; 
+}
+
+ul{
+    margin-left: 2em;
+    margin-top: 20px;
+}
+
+.pictures{
+    margin-top: 20px;
+}
+
+.paragraph{
+    margin-top: 20px;
+}
+
+table{
+    margin-top: 20px;
+}
+
+h4{
+    margin-top: 20px;
 }
