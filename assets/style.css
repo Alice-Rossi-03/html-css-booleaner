@@ -5,39 +5,53 @@
     box-sizing: border-box;
 }
 
+/* the author */
 .blue{
     color: lightskyblue; 
 }
 
+/* the date */
 .day{
     font-size: 10px;
 }
 
+span, .day{
+    color: gray;
+}
+
+/* logo section */
 .logo-container{
     background-image: url(../assets/img/pattern.png);
     background-repeat: repeat-x; 
     background-size: contain;
     height: 100px;
-    padding: 50px; 
     background-color: lightblue;
 }
 
 .logo{
     width: 200px;
+    padding-left: 10px;
+    padding-top: 50px;
 }
 
+/* margin to the unordered list */
 ul{
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
-.pictures, .paragraph, h1, table, h4, ul {
+/* general margin to space sections */
+section, figure, footer {
     margin-top: 20px;
 }
 
-h4{
-    color: gray;
+/* photo description */
+#photo-description{
+    margin: 0;
 }
 
+/* ho forzato le dimensioni 
+perchè in tutti i modi in cui ho provato mi 
+dava l'immagine minuscola, anche cambiando la width */ 
 .footer-photo{
     width: 312px;
     height: 209px;
@@ -57,6 +71,8 @@ h4{
     background-image: url(../assets/img/graph.jpg);
 }
 
+
+/* table */
 thead{
     background-color: rgb(72, 157, 210);
     color: white;
@@ -76,11 +92,13 @@ td{
     background-color: lightblue;
 }
 
+/* footer */
 main, footer{
-    width: 95%;
-    margin: auto;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-span, .day{
+h4{
     color: gray;
 }
