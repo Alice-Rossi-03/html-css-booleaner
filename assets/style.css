@@ -29,8 +29,8 @@ span, .day{
 }
 
 .logo{
-    width: 200px;
-    padding-left: 17px;
+    width: 280px;
+    padding-left: 117px;
     padding-top: 50px;
 }
 
@@ -94,7 +94,7 @@ td{
 
 /* footer */
 main, footer{
-    width: 1400px;
+    width: 1200px;
     margin: auto;
 }
 
