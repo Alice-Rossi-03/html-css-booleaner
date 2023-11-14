@@ -19,19 +19,24 @@ span, .day{
     color: gray;
 }
 
-/* logo section */
-.logo-container{
-    background-image: url(../assets/img/pattern.png);
+/* pattern */
+header{
+    background-image: url("../assets/img/pattern.png"); 
     background-repeat: repeat-x; 
-    background-size: contain;
+    background-size: 20%;
     height: 100px;
     background-color: lightblue;
+    padding-top: 30px;
+}
+
+/* logo section */
+.logo-container{
+   margin: 0 auto;  
+   width: 80%;
 }
 
 .logo{
     width: 280px;
-    padding-left: 117px;
-    padding-top: 50px;
 }
 
 /* margin to the unordered list */
@@ -94,8 +99,8 @@ td{
 
 /* footer */
 main, footer{
-    width: 1200px;
-    margin: auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 h4{
