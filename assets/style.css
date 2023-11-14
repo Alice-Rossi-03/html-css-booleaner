@@ -6,7 +6,7 @@
 }
 
 /* the author */
-.blue{
+.the-booleaner{
     color: lightskyblue; 
 }
 
@@ -15,7 +15,7 @@
     font-size: 10px;
 }
 
-span, .day{
+h6{
     color: gray;
 }
 
@@ -37,6 +37,11 @@ header{
 
 .logo{
     width: 280px;
+}
+
+/* tim photos */
+.tim-photos img{
+    width: 50%;
 }
 
 /* margin to the unordered list */
