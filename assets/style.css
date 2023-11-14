@@ -10,6 +10,10 @@
     color: lightskyblue; 
 }
 
+.photo-description p{ 
+    font-size: 8px; 
+}
+
 /* the date */
 .day{
     font-size: 10px;
@@ -50,8 +54,8 @@ ul{
 }
 
 /* general margin to space sections */
-section, figure, footer {
-    margin-top: 20px;
+section, figure, .margin-top, h4 {
+    margin-top: 20px; 
 }
 
 /* photo description */
@@ -59,15 +63,16 @@ section, figure, footer {
     margin: 0;
 }
 
-/* ho forzato le dimensioni 
-perchè in tutti i modi in cui ho provato mi 
-dava l'immagine minuscola, anche cambiando la width */ 
+/* footer photos */ 
 .footer-photo{
-    width: 312px;
-    height: 209px;
-    background-size: contain;
+    width: 200px;
+    height: 200px;
     color: white;
-    margin-top: 20px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-block: 20px;
     padding: 10px;
 }
 
